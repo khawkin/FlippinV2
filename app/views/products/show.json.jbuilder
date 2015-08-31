@@ -1,0 +1,1 @@
+json.extract! @product, :id, :industry_id, :third_party_id, :name, :averageNewPrice, :newPrice, :averageUsedPrice, :usedPrice, :quality, :productCredibility, :productLocation, :type, :age, :sellingTime, :bidPrice?, :description, :quantity, :created_at, :updated_at

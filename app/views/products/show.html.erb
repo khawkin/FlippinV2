@@ -1,0 +1,84 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @product.industry_id %>
+</p>
+
+<p>
+  <strong>Third party:</strong>
+  <%= @product.third_party_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Averagenewprice:</strong>
+  <%= @product.averageNewPrice %>
+</p>
+
+<p>
+  <strong>Newprice:</strong>
+  <%= @product.newPrice %>
+</p>
+
+<p>
+  <strong>Averageusedprice:</strong>
+  <%= @product.averageUsedPrice %>
+</p>
+
+<p>
+  <strong>Usedprice:</strong>
+  <%= @product.usedPrice %>
+</p>
+
+<p>
+  <strong>Quality:</strong>
+  <%= @product.quality %>
+</p>
+
+<p>
+  <strong>Productcredibility:</strong>
+  <%= @product.productCredibility %>
+</p>
+
+<p>
+  <strong>Productlocation:</strong>
+  <%= @product.productLocation %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @product.type %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @product.age %>
+</p>
+
+<p>
+  <strong>Sellingtime:</strong>
+  <%= @product.sellingTime %>
+</p>
+
+<p>
+  <strong>Bidprice?:</strong>
+  <%= @product.bidPrice? %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @product.quantity %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

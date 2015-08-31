@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  profit: 1
+  credibility: MyString
+  surcharge: 1
+  shipping?: false
+  shippingCost: 1
+  visitorCount: 1
+  rating: 1
+  vendor?: false
+
+two:
+  name: MyString
+  url: MyString
+  profit: 1
+  credibility: MyString
+  surcharge: 1
+  shipping?: false
+  shippingCost: 1
+  visitorCount: 1
+  rating: 1
+  vendor?: false

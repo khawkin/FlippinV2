@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Third Parties</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Url</th>
+      <th>Profit</th>
+      <th>Credibility</th>
+      <th>Surcharge</th>
+      <th>Shipping?</th>
+      <th>Shippingcost</th>
+      <th>Visitorcount</th>
+      <th>Rating</th>
+      <th>Vendor?</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @third_parties.each do |third_party| %>
+      <tr>
+        <td><%= third_party.name %></td>
+        <td><%= third_party.url %></td>
+        <td><%= third_party.profit %></td>
+        <td><%= third_party.credibility %></td>
+        <td><%= third_party.surcharge %></td>
+        <td><%= third_party.shipping? %></td>
+        <td><%= third_party.shippingCost %></td>
+        <td><%= third_party.visitorCount %></td>
+        <td><%= third_party.rating %></td>
+        <td><%= third_party.vendor? %></td>
+        <td><%= link_to 'Show', third_party %></td>
+        <td><%= link_to 'Edit', edit_third_party_path(third_party) %></td>
+        <td><%= link_to 'Destroy', third_party, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Third party', new_third_party_path %>

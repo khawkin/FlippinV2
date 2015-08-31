@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @third_party.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @third_party.url %>
+</p>
+
+<p>
+  <strong>Profit:</strong>
+  <%= @third_party.profit %>
+</p>
+
+<p>
+  <strong>Credibility:</strong>
+  <%= @third_party.credibility %>
+</p>
+
+<p>
+  <strong>Surcharge:</strong>
+  <%= @third_party.surcharge %>
+</p>
+
+<p>
+  <strong>Shipping?:</strong>
+  <%= @third_party.shipping? %>
+</p>
+
+<p>
+  <strong>Shippingcost:</strong>
+  <%= @third_party.shippingCost %>
+</p>
+
+<p>
+  <strong>Visitorcount:</strong>
+  <%= @third_party.visitorCount %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @third_party.rating %>
+</p>
+
+<p>
+  <strong>Vendor?:</strong>
+  <%= @third_party.vendor? %>
+</p>
+
+<%= link_to 'Edit', edit_third_party_path(@third_party) %> |
+<%= link_to 'Back', third_parties_path %>

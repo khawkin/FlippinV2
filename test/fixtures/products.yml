@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  industry_id: 1
+  third_party_id: 1
+  name: MyString
+  averageNewPrice: 1
+  newPrice: 1
+  averageUsedPrice: 1
+  usedPrice: 1
+  quality: MyString
+  productCredibility: MyString
+  productLocation: MyString
+  type: 
+  age: 1
+  sellingTime: 1
+  bidPrice?: false
+  description: MyString
+  quantity: 1
+
+two:
+  industry_id: 1
+  third_party_id: 1
+  name: MyString
+  averageNewPrice: 1
+  newPrice: 1
+  averageUsedPrice: 1
+  usedPrice: 1
+  quality: MyString
+  productCredibility: MyString
+  productLocation: MyString
+  type: 
+  age: 1
+  sellingTime: 1
+  bidPrice?: false
+  description: MyString
+  quantity: 1
